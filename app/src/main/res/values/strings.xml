@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">简易录音器</string>
+    <string name="dir_path">保存文件路径:%1$s</string>
+    <string name="permission_success">获取权限成功</string>
+    <string name="permission_fail">获取权限失败</string>
+    <string name="btn_record">录音</string>
+    <string name="btn_record_start">开始录音</string>
+    <string name="btn_record_over">结束</string>
+    <string name="record_save_success">保存成功</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_playing">播放</string>
+    <string name="btn_delete">删除</string>
+</resources>

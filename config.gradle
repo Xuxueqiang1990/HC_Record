@@ -1,0 +1,25 @@
+ext {
+    // SDK And Tools
+    COMPILE_SDK_VERSION = 25
+    MIN_SDK_VERSION = 20
+    TARGET_SDK_VERSION = 25
+
+    KOTLIN_VERSION = '1.2.30'
+
+    SUPPORT_VERSION = '25.3.0'
+    BUILD_TOOLS_VERSION = '25.0.3'
+
+
+    //android libs
+    androidsdk = [
+            supportV4       : "com.android.support:support-v4:$SUPPORT_VERSION",
+            recyclerview    : "com.android.support:recyclerview-v7:$SUPPORT_VERSION",
+            appcompatV7     : "com.android.support:appcompat-v7:$SUPPORT_VERSION",
+            junit           : "junit:junit:4.12"
+    ]
+
+    third = [
+            kotlinStdlibJDK     : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$KOTLIN_VERSION"
+    ]
+
+}
